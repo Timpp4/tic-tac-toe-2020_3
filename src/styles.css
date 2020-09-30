@@ -1,0 +1,33 @@
+body {
+  font-family: Helvetica;
+  margin-top: 5%;
+}
+
+.gameBoard {
+  margin: auto;
+  max-width: 306px;
+  max-height: 306px;
+}
+
+.p1 {
+  background-color: rgb(124, 252, 0);
+}
+.p2 {
+  background-color: rgb(250, 128, 114);
+}
+.empty {
+  background-color: white;
+}
+
+.row {
+  margin: 0;
+}
+
+.col {
+  border: 1px solid black;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-collapse: collapse;
+}
